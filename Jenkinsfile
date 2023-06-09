@@ -13,7 +13,7 @@ pipeline {
                 sh 'terraform init'
             }
         }
-           
+        set +e   
         stage('Terraform plan') {
             steps {
                 sh 'terraform plan -out main.plan'
