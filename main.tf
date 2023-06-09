@@ -17,7 +17,7 @@ client_secret = "8sC8Q~DdplsqtB8zWZ~~4cKzjXLMu6i7-zS3nc_m"
 }
 
   # Configuration options
-}
+
 ##Resource Group
 resource "azurerm_resource_group" "rg" {
 name = "Terraform-assed-Rg"
